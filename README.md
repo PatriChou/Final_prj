@@ -2,13 +2,13 @@
 
 ## 1. Catapult HLS
 ### Modify the control signal
-In Catapult_HLS/hls_c/src/EdgeDetect_tb.cpp
-EdgeDetect_tb(94) : To modify ctrl signal of Denoise Filter
-EdgeDetect_tb(95) : To modify ctrl signal of EdgeDetect Filter
+#### In Catapult_HLS/hls_c/src/EdgeDetect_tb.cpp 
+      EdgeDetect_tb(94) : To modify ctrl signal of Denoise Filter 
+      EdgeDetect_tb(95) : To modify ctrl signal of EdgeDetect Filter 
 
 ### Modify the testing image
-In Catapult_HLS/bin/run.sh
-run(1) : argv[1] ./image/$(change the image you want).bmp 
+#### In Catapult_HLS/bin/run.sh 
+      run(1) : argv[1] ./image/$(change the image you want).bmp 
 
 
 ### Simulation 
