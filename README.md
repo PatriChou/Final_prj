@@ -8,7 +8,7 @@
 
 ### Modify the testing image
 #### In Catapult_HLS/bin/run.sh 
-      run(1) : argv[1] ./image/$(change the image you want).bmp 
+      run(1) : ./image/$(change the image you want).bmp 
 
 
 ### Simulation 
