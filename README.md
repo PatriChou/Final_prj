@@ -1,7 +1,25 @@
 ###### EECS24 109020014 Cheng-Hao, Lee
 
 ## 1. Catapult HLS
-  
+### Modify the control signal
+In Catapult_HLS/hls_c/src/EdgeDetect_tb.cpp
+EdgeDetect_tb(94) : To modify ctrl signal of Denoise Filter
+EdgeDetect_tb(95) : To modify ctrl signal of EdgeDetect Filter
+
+### Modify the testing image
+In Catapult_HLS/bin/run.sh
+run(1) : argv[1] ./image/$(change the image you want).bmp 
+
+
+### Simulation 
+```shell
+cd Catapult_HLS
+make
+cd bin/
+sh run.sh
+```
+
+
 
 ## 2. FSIC-SIM
 ### 1. Spec
